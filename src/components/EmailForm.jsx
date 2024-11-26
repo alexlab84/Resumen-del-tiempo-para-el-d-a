@@ -14,7 +14,7 @@ function EmailForm() {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="input-container">
             <label htmlFor="email">Email: </label>
             <input
                 type="email"

@@ -2,7 +2,7 @@
 
 function CityInput({ city, onCityChange }) {
     return (
-        <div>
+        <div className="input-container">
             <input 
                 type="text" 
                 value={city}
